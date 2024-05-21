@@ -13,7 +13,7 @@ import google.generativeai as genai
 
 
 os.getenv("")
-genai.configure(api_key=os.getenv("sk-proj-J3cCqygBwFZsJT18WS5ZT3BlbkFJECTSOQIlXwjxfj74lQBu"))
+genai.configure(api_key=os.getenv("openaikey"))
 
 ## Function to load OpenAI model and get respones
 
